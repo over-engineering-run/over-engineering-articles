@@ -1,4 +1,4 @@
-# 【】關於前端大叔轉生爬蟲後的那檔子事
+# 【】關於轉生爬蟲後的那檔子事
 
 **因為太多細節處理，所以文章指擷取重要內容，請各位見諒!!!**
 
@@ -269,17 +269,10 @@ deno run --allow-all job.ts \
 [dotenv]: https://github.com/motdotla/dotenv
 
 [main-process]: https://github.com/over-engineering-run/over-engineering/blob/8b3d62f485c9d4db18de9ef5ec1c1660feb06161/crawler/job.ts#L34
-
 [fetch-dom]: https://github.com/over-engineering-run/over-engineering/blob/8b3d62f485c9d4db18de9ef5ec1c1660feb06161/crawler/lib.ts#L23
-
 [parse-dom]: https://github.com/over-engineering-run/over-engineering/blob/8b3d62f485c9d4db18de9ef5ec1c1660feb06161/crawler/lib.ts#L16
-
 [extract]: https://github.com/over-engineering-run/over-engineering/blob/8b3d62f485c9d4db18de9ef5ec1c1660feb06161/crawler/lib.ts#L123
-
 [extract-article]: https://github.com/over-engineering-run/over-engineering/blob/8b3d62f485c9d4db18de9ef5ec1c1660feb06161/crawler/lib.ts#L83
-
 [extract-series]: https://github.com/over-engineering-run/over-engineering/blob/8b3d62f485c9d4db18de9ef5ec1c1660feb06161/crawler/lib.ts#L100
-
 [extract-user]: https://github.com/over-engineering-run/over-engineering/blob/8b3d62f485c9d4db18de9ef5ec1c1660feb06161/crawler/lib.ts#L109
-
 [insert-db]: https://github.com/over-engineering-run/over-engineering/blob/8b3d62f485c9d4db18de9ef5ec1c1660feb06161/crawler/job.ts#L12
