@@ -254,16 +254,17 @@ deno run --allow-all job.ts \
 
 ## Reference
 
+- [deno]
 - [supabase]
 - [ramda]
 - [deno-dom]
 - [linke-dom]
 - [js-dom]
 
-
+[deno]: https://deno.land/
 [supabase]: https://supabase.com/
 [ramda]: https://ramdajs.com/
-[deno-dom]: [https://deno.land/x/deno_dom@v0.1.33-alpha
+[deno-dom]: https://github.com/b-fuze/deno-dom
 [linke-dom]: https://github.com/WebReflection/linkedom
 [js-dom]: https://github.com/jsdom/jsdom
 [dotenv]: https://github.com/motdotla/dotenv
