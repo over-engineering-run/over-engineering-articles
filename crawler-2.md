@@ -260,7 +260,7 @@ deno run --allow-all job.ts \
 - [linke-dom]
 - [js-dom]
 
-
+[deno]: https://deno.land/
 [supabase]: https://supabase.com/
 [ramda]: https://ramdajs.com/
 [deno-dom]: [https://deno.land/x/deno_dom@v0.1.33-alpha
