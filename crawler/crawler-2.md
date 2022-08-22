@@ -1,4 +1,4 @@
-# 【】關於轉生爬蟲後的那檔子事
+# Deno 爬蟲 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】
 
 **因為太多細節處理，所以文章指擷取重要內容，請各位見諒!!!**
 
@@ -147,11 +147,11 @@ export const extract = (document: HTMLDocument, insert: InsertProxy) =>
         await insert.user(information.user);
         await insert.series(information.series);
         await insert.article({
-        ...information.article,
-        // 透過 作者連結 關聯到 作者資料
-        author_href: information.user.href,
-        // 透過 系列連結 關聯到 系列資料
-        series_href: information.series.href,
+          ...information.article,
+          // 透過 作者連結 關聯到 作者資料
+          author_href: information.user.href,
+          // 透過 系列連結 關聯到 系列資料
+          series_href: information.series.href,
         });
       })
     )
