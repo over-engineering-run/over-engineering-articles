@@ -13,48 +13,92 @@ GitHub Actions 讓我們可以簡單做出軟體流程自動化，
 
 ## Setup
 
-在專案根目錄設置 `.github/workflows/`。
+在專案根目錄設置 `.github/`。
 
 配置兩個檔案，分別是：
-- `crawler-scheduler.yml`：負責處理自動排程
-- `extract-articles.yml`：負責執行 crawler
+- `actions/extract-action/action.yml`：負責執行 crawler
+- `workflows/crawler-scheduler.yml`：負責處理自動排程
 
-## Extract Articles 擷取文章
-
-```yaml
-on:
-  workflow_dispatch:
-    inputs:
-      environment:
-        description: 'Environment to run scrape'
-        type: environment
-        required: true
-  workflow_call:
-    inputs:
-      environment:
-        description: 'Environment to run scrape'
-        type: environment
-        required: true
+```
+.github
+├── actions
+│   └── extract-action
+│       └── action.yml
+└── workflows
+    └── crawler-scheduler.yml
 ```
 
-這邊設置了兩個觸發方式，
-- `workflow_dispatch`：會在 GitHub 上提供一個按鈕用於手動觸發，方便測試。
-- `workflow_call`：讓其他的 workflow 能夠呼叫這個 workflow，類似於函式呼叫。
+## Extract Action 擷取文章
 
-這兩個方式都需要拋入 `environment` 參數，用來指定是哪個環境需要執行 crawler，  
-目前規劃只有 `staging` 跟 `production` 環境，  
+這個 **local_action** 封裝擷取文章的流程。
+
+透過 `env` 用來指定是哪個環境需要執行 crawler，
+目前規劃只有 staging 跟 production 環境，
 在未來如果有擴充的可能，這邊也可以很方便進行調整。
-
-詳細可見 [原始碼連結][extract-articles-on]
 
 > 關於如何在 GitHub 建立環境，請參考 [這篇][create-env]
 
 ```yaml
+name: 'extract-action'
+
+runs:
+  using: "composite"
+  steps:
+    - name: 🛑 Cancel Previous Runs
+      uses: styfle/cancel-workflow-action@0.9.1
+
+    - name: ⬇️ Checkout repo
+      uses: actions/checkout@v3
+
+    - name: ⎔ Setup node
+      uses: denoland/setup-deno@v1
+
+    - name: 🚀 Execute
+      env:
+        SUPABASE_API_KEY: ${{ env.SUPABASE_API_KEY }}
+        SUPABASE_URL: ${{ env.SUPABASE_URL }}
+      shell: bash
+      run: |
+        deno run --allow-all crawler/job.ts \
+          --href="https://ithelp.ithome.com.tw/articles?tab=ironman" \
+          --from="${{ matrix.range.from }}" \
+          --to="${{ matrix.range.to }}"
+```
+
+詳細可見 [原始碼連結][extract-action]
+
+## Crawler Scheduler 排程
+
+這邊設置了兩個觸發方式，
+- `schedule`：指定固定時間執行這個檔案的工作排程。
+- `workflow_dispatch`：會在 GitHub 上提供一個按鈕用於手動觸發，方便測試。
+
+排程類被歸類在 `schedule` 底下，
+跟絕大多數的排程系統一樣，GitHub 也是採用 [POSIX cron syntax][posix-cron-syntax]，  
+如果對這個不是很熟的話，可以用 [cron 大師][crontab-guru] 來幫助寫出正確時間。
+
+```yaml
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+
+  workflow_dispatch: {}
+```
+詳細可見 [原始碼連結][crawler-scheduler-1]
+
+
+*matrix strategies* 讓我們在同一個 job 中設置多個參數，並基於這些參數自動執行複數個 job。  
+這邊透過這個方式指定每個 job 需要負責的頁數範圍。  
+每個 job 是獨立的 process，平行執行且互不干擾。
+
+透過指定 `env` 的方式，執行 `extract-action` 來共用同一份工作腳本。
+
+
+```yaml
 jobs:
-  execute:
-    name: 🕷️ Execute
+  execute-staging:
     runs-on: ubuntu-latest
-    environment: ${{ inputs.environment }}
+    environment: staging
     strategy:
       matrix:
         range:
@@ -74,50 +118,15 @@ jobs:
           - { from: 2600, to: 2800 }
           - { from: 2800, to: 2859 }
     steps:
-      - name: 🚀 Execute
-        run: |
-          deno run --allow-all scraper/job.ts \
-            --href="https://ithelp.ithome.com.tw/articles?tab=ironman" \
-            --from="${{ matrix.range.from }}" \
-            --to="${{ matrix.range.to }}"
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - uses: ./.github/actions/extract-action
+        env:
+          SUPABASE_API_KEY: ${{ secrets.SUPABASE_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
 ```
-
-*matrix strategies* 讓我們在同一個 job 中設置多個參數，並基於這些參數自動執行複數個 job。  
-這邊透過這個方式指定每個 job 需要負責的頁數範圍。  
-每個 job 是獨立的 process，平行執行且互不干擾。
-
-詳細可見 [原始碼連結][extract-articles-job]
-
-## Crawler Scheduler 排程
-
-```yaml
-on:
-  schedule:
-    - cron: '0 0 * * 0'
-```
-
-排程類被歸類在 `schedule` 底下，
-跟絕大多數的排程系統一樣，GitHub 也是採用 [POSIX cron syntax][posix-cron-syntax]，  
-如果對這個不是很熟的話，可以用 [cron 大師][crontab-guru] 來幫助寫出正確時間。
-
-詳細可見 [原始碼連結][crawler-scheduler-on]
-
-```yaml
-jobs:
-  execute_staging:
-    uses: ./.github/workflows/extract-articles.yml
-    with:
-      environment: staging
-
-  execute_production:
-    uses: ./.github/workflows/extract-articles.yml
-    with:
-      environment: production
-```
-
-分兩個環境到獨立的 job，透過拋參數的方式呼叫同一份 crawler 流程。
-
-詳細可見 [原始碼連結][crawler-scheduler-job]
+詳細可見 [原始碼連結][crawler-scheduler-2]
 
 ## Reference
 
@@ -130,7 +139,8 @@ jobs:
 [crontab-guru]: https://crontab.guru/
 
 
-[extract-articles-on]: https://github.com/over-engineering-run/over-engineering/blob/4e9a0fd519dff73cdb3d4a6cec19f461e4bfcf08/.github/workflows/extract-articles.yml#L3
-[extract-articles-job]: https://github.com/over-engineering-run/over-engineering/blob/4e9a0fd519dff73cdb3d4a6cec19f461e4bfcf08/.github/workflows/extract-articles.yml#L17
-[crawler-scheduler-on]: https://github.com/over-engineering-run/over-engineering/blob/4e9a0fd519dff73cdb3d4a6cec19f461e4bfcf08/.github/workflows/crawler-scheduler.yml#L3
-[crawler-scheduler-job]: https://github.com/over-engineering-run/over-engineering/blob/4e9a0fd519dff73cdb3d4a6cec19f461e4bfcf08/.github/workflows/crawler-scheduler.yml#L9
+[extract-action]: https://github.com/over-engineering-run/over-engineering/blob/3a41df0809ca2c8f4ee8c6bf6966657d247c644a/.github/actions/extract-action/action.yml#L1
+
+[crawler-scheduler-1]: https://github.com/over-engineering-run/over-engineering/blob/3a41df0809ca2c8f4ee8c6bf6966657d247c644a/.github/workflows/crawler-scheduler.yml#L3
+
+[crawler-scheduler-2]: https://github.com/over-engineering-run/over-engineering/blob/3a41df0809ca2c8f4ee8c6bf6966657d247c644a/.github/workflows/crawler-scheduler.yml#L9
