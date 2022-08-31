@@ -5,48 +5,50 @@
 它不僅僅只是為了**設計師**而存在，  
 實際上它跟**軟體開發**，甚至是跟**公司成本**都有著很大的關係。
 
-如果你還沒有導入過 **Design System**，  
-如果你的目標是要做嚴謹跟成熟的產品，  
-甚至是幫你的團隊省下開發荷包，  
-非常推薦你可以好好考慮。
+## 什麼是 Design System
+
+**Design System** 是一組 **有明確的設計標準** 跟 **可被重複利用的元件**，
+用來組合成任意應用程序。
+
+> “Design systems are always evolving, 
+> and the way you share and encourage adoption of new iterations will evolve along the way as well.”  
+> –Diana Mounter, design systems manager at GitHub  
+> 關聯閱讀： [Design Systems, when and how much?][2]
 
 ## 為什麼需要 Design System
 
 ### 讓團隊能共享同樣的語言 => 降低溝通成本
 
-**記住，文字非常重要。**  
+**文字非常重要。**  
 
-精準的用字能讓團隊成員所有人都能準確的理解你想傳達的話，  
+精準的用字能讓團隊成員所有人都能準確的理解想傳達的話，  
 它能夠節省掉大量的鬼打牆時間。  
 
-如果你的團隊常常浪費大量的時間再來回溝通，  
+如果團隊常常浪費大量的時間再來回溝通，  
 或許你需要好好反思這個概念。
 
 ### 共享思考模型 => 明確的目標
 
-讓他人能夠理解你想達到的目標非常重要，  
-但不要僅止於口頭表示，務必把它文件化。
-
 他能將你想做的東西或是概念文件化，  
 並且可以白板說明你為何如此設計，  
+
+> “Design systems provide a convenient, centralized, and evolving map of a brand’s known product territories 
+> with directional pointers to help you explore new regions.”  
+> —Chris Messina, tech evangelist and former developer experience lead at Uber
 
 ### 共享設計跟程式資源 => 節省開發成本
 
 有系統的管理開發資源跟工具，  
-會對整個開發流程跟體驗有非常大的效益。  
+會對整體開發流程跟體驗有非常大的效益。  
 
-我自己的體悟是，  
-比起設計天花亂墜系統架構框架，  
-提供能真正幫助到開發者們的資源或工具，  
-更有機會讓專案成功落地而不會著火。
+> 我自己的體驗是，  
+> 比起設計天花亂墜系統架構框架，  
+> 提供能真正幫助到開發者們的資源或工具，  
+> 更有機會讓專案成功落地而不會著火。  
 
 ## 常見迷思
 
 ### Design System 是設計師的事，沒工程師什麼事
-
-只要團隊開發的產品有需要用到交互介面那就都有事。
-
-> **以下基於 團隊真的了解如何規劃 Design System**
 
 **Design System** 可以幫工程師：
 
@@ -59,15 +61,13 @@ a.k.a **提早下班**。
 
 ### 用現成元件庫兜一兜不就好了，為何要自找麻煩
 
-當然你可以這麼做，如果你並不在意產品的成敗。
-
 你也可以用這些元件做出很屌的東西，  
 如果不在意品牌經營的話。
 
 ![no-coherent](https://intercom.com/blog/wp-content/uploads/2017/04/Lego-aircraft-carrier.jpg)
 
 如果你也同意 **品牌經營對於產品成敗至關重要**，  
-那你可能需要好好考慮一下。
+那可能需要好好考慮一下。
 
 軟體開發的原則：低耦合，高內聚，同樣適用於設計跟品牌，  
 好的產品會讓用戶體驗到：首尾呼應的主題，風格，印象，  
@@ -75,31 +75,7 @@ a.k.a **提早下班**。
 
 ![coherent](https://intercom.com/blog/wp-content/uploads/2017/04/Lego-Empire-system.jpg)
 
-**你不需要做出一艘軍艦，也可以把產品賣的嚇嚇叫。**
-
-且大部分的元件庫都有他們預設的樣式，  
-但這些樣式並不一定能夠契合你的產品，  
-如果設計師希望的樣式與元件庫的預設樣式或是行為不同，  
-工程師就需要另外花費很多心力去客製，  
-更甚是直接拒絕設計師的需求，  
-最後變成開發跟設計無法順利合作，不歡而散。
-
-## 什麼是 Design System
-
-大部分人對於 **Design System** 的認識止步於一坨 元件 跟 程式碼，但他不僅指於此。
-
-> “Design systems provide a convenient, centralized, and evolving map of a brand’s known product territories 
-> with directional pointers to help you explore new regions.”  
-> —Chris Messina, tech evangelist and former developer experience lead at Uber
-
-**Design System** 是一組 **有明確的設計標準** 跟 **可被重複利用的元件**，
-用來組合成任意應用程序。
-
-> “Design systems are always evolving, 
-> and the way you share and encourage adoption of new iterations will evolve along the way as well.”  
-> –Diana Mounter, design systems manager at GitHub  
-> 關聯閱讀： [Design Systems, when and how much?][2]
-
+**不需要做出一艘軍艦，也可以把產品賣的嚇嚇叫。**
 
 ## 如何設計 Design System
 
@@ -139,7 +115,7 @@ red
 - Content 內文
 - Service Mechanics 服務機制
 
-### UI / Pattern Library
+### UI / Pattern Library / 使用情境 / 文件
 
 將所有產品中用到的 `button` `form` `modal` `image` 集中建檔，  
 並設法整合他們，或是移除沒有用到的部分。
@@ -148,12 +124,13 @@ red
 並非透過 記憶 這種不可靠的方式，  
 而是真正的歸檔，明擺著的文件跟函式庫。
 
-### 使用情境 / 文件
+## 規劃流程
 
-**這個是最重要的。**
-
-將你的元件的用途跟如何使用文件化跟標準化，  
-才是真正的 **Design System**。
+1. 規劃需要什麼元件
+   建立簡單的的清單幫助你快速識別專案需要哪些元件。
+2. 在不同的介面下，試著整合並精簡化元件
+3. 建立 Design Principle 跟 Style Guideline
+4. 打造元件
 
 
 [2]: https://www.youtube.com/watch?v=Hx02SaL_IH0&ab_channel=Netlify
