@@ -1,0 +1,159 @@
+# 為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】
+
+隨著作為開發者的時間年復一年的過去，  
+我最終認識到 **Design System** 的重要性，  
+它不僅僅只是為了**設計師**而存在，  
+實際上它跟**軟體開發**，甚至是跟**公司成本**都有著很大的關係。
+
+如果你還沒有導入過 **Design System**，  
+如果你的目標是要做嚴謹跟成熟的產品，  
+甚至是幫你的團隊省下開發荷包，  
+非常推薦你可以好好考慮。
+
+## 為什麼需要 Design System
+
+### 讓團隊能共享同樣的語言 => 降低溝通成本
+
+**記住，文字非常重要。**  
+
+精準的用字能讓團隊成員所有人都能準確的理解你想傳達的話，  
+它能夠節省掉大量的鬼打牆時間。  
+
+如果你的團隊常常浪費大量的時間再來回溝通，  
+或許你需要好好反思這個概念。
+
+### 共享思考模型 => 明確的目標
+
+讓他人能夠理解你想達到的目標非常重要，  
+但不要僅止於口頭表示，務必把它文件化。
+
+他能將你想做的東西或是概念文件化，  
+並且可以白板說明你為何如此設計，  
+
+### 共享設計跟程式資源 => 節省開發成本
+
+有系統的管理開發資源跟工具，  
+會對整個開發流程跟體驗有非常大的效益。  
+
+我自己的體悟是，  
+比起設計天花亂墜系統架構框架，  
+提供能真正幫助到開發者們的資源或工具，  
+更有機會讓專案成功落地而不會著火。
+
+## 常見迷思
+
+### Design System 是設計師的事，沒工程師什麼事
+
+只要團隊開發的產品有需要用到交互介面那就都有事。
+
+> **以下基於 團隊真的了解如何規劃 Design System**
+
+**Design System** 可以幫工程師：
+
+- 減少開發時程
+- 減少錯誤
+- 減少無意義的討論
+- 減少放飛自我的設計
+
+a.k.a **提早下班**。
+
+### 用現成元件庫兜一兜不就好了，為何要自找麻煩
+
+當然你可以這麼做，如果你並不在意產品的成敗。
+
+你也可以用這些元件做出很屌的東西，  
+如果不在意品牌經營的話。
+
+![no-coherent](https://intercom.com/blog/wp-content/uploads/2017/04/Lego-aircraft-carrier.jpg)
+
+如果你也同意 **品牌經營對於產品成敗至關重要**，  
+那你可能需要好好考慮一下。
+
+軟體開發的原則：低耦合，高內聚，同樣適用於設計跟品牌，  
+好的產品會讓用戶體驗到：首尾呼應的主題，風格，印象，  
+以及沒有累贅跟重複的服務內容，每項功能都很明確。    
+
+![coherent](https://intercom.com/blog/wp-content/uploads/2017/04/Lego-Empire-system.jpg)
+
+**你不需要做出一艘軍艦，也可以把產品賣的嚇嚇叫。**
+
+且大部分的元件庫都有他們預設的樣式，  
+但這些樣式並不一定能夠契合你的產品，  
+如果設計師希望的樣式與元件庫的預設樣式或是行為不同，  
+工程師就需要另外花費很多心力去客製，  
+更甚是直接拒絕設計師的需求，  
+最後變成開發跟設計無法順利合作，不歡而散。
+
+## 什麼是 Design System
+
+大部分人對於 **Design System** 的認識止步於一坨 元件 跟 程式碼，但他不僅指於此。
+
+> “Design systems provide a convenient, centralized, and evolving map of a brand’s known product territories 
+> with directional pointers to help you explore new regions.”  
+> —Chris Messina, tech evangelist and former developer experience lead at Uber
+
+**Design System** 是一組 **有明確的設計標準** 跟 **可被重複利用的元件**，
+用來組合成任意應用程序。
+
+> “Design systems are always evolving, 
+> and the way you share and encourage adoption of new iterations will evolve along the way as well.”  
+> –Diana Mounter, design systems manager at GitHub  
+> 關聯閱讀： [Design Systems, when and how much?][2]
+
+
+## 如何設計 Design System
+
+### 設計原則
+
+程式跟設計都必須基於同一套 規範，限制，原則。
+
+> 規範的範例：  
+> **Color**  
+> Rule：顏色對比度必須大於 4.5:1  
+> Constraint：使用的顏色總數量  
+> Principle：每個顏色的使用必須要有意義
+
+### 基於設計原則的程式參數
+
+```bash
+red
+├── text
+├── background
+├── border
+...
+```
+
+### 範疇
+
+**Design System** 的範疇可以非常廣，  
+從比較視覺設計層面囊跨到商業核心。  
+
+**好的設計甚至可以涉及到心理層面。**
+
+- Typography 排印
+- Components 元件
+- Color 顏色
+- Size / Spacing 大小 / 間距
+- Layout 版型
+- Interaction models 互動模型
+- Content 內文
+- Service Mechanics 服務機制
+
+### UI / Pattern Library
+
+將所有產品中用到的 `button` `form` `modal` `image` 集中建檔，  
+並設法整合他們，或是移除沒有用到的部分。
+
+集中管理方便開發團隊可以清楚掌握手上有哪些可用資源，  
+並非透過 記憶 這種不可靠的方式，  
+而是真正的歸檔，明擺著的文件跟函式庫。
+
+### 使用情境 / 文件
+
+**這個是最重要的。**
+
+將你的元件的用途跟如何使用文件化跟標準化，  
+才是真正的 **Design System**。
+
+
+[2]: https://www.youtube.com/watch?v=Hx02SaL_IH0&ab_channel=Netlify
