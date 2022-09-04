@@ -36,6 +36,7 @@ Keyword Extraction
 - [為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./frontend/design.md)
 - [如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./frontend/result.md)
 - [如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./frontend/combobox.md)
+- [如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./frontend/result-list.md)
 
 ## Other
 
