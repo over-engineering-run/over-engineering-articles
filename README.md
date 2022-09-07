@@ -2,13 +2,11 @@
 
 ## Introduction
 
-- Introduction
-- Brief Guide
-- 搜尋引擎 延展跟前置作業
-
-- [如何規劃技術架構 - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./structure/structure.md)
-
-- Outline
+- [介紹 - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./intro/introduction.md)
+- [導讀 - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./intro/brief-guide.md)
+- [前置作業 - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./intro/prepare.md)
+- [如何規劃技術架構 - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./intro/structure.md)
+- [綱要 - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./intro/outline.md)
 
 ## Crawler
 

@@ -57,8 +57,8 @@ const Page = () => {
       <p className="my-4 px-4 lg:ml-44 lg:px-0">About {data.total} results</p>
 
       {/* List of Search Results */}
-      <div className="flex-1">
-        <SearchResults {...data} key={data.query} />
+      <div className="flex-1" key={data.query}>
+        <SearchResults {...data} />
       </div>
     </div>
   );
@@ -70,7 +70,9 @@ const Page = () => {
 這時我們還需要另一個 API [useFetcher][usefetcher]。
 
 > **NOTICE**  
-> 注意到我用了 `key`，透過 `key` 我們可以重置元件的狀態，  
+> 注意到我用了 `key`，  
+> 如果 `key` 跟前次渲染比對不相同時會 rerender 那個元件，
+> 包含重置元件狀態，像是 `useState`，
 > 如果你之前是透過 `useEffect` 來重置元件狀態的話，  
 > [建議你改採用這個方式][resetting]。
 

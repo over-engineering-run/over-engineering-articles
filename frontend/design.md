@@ -135,7 +135,7 @@ red
 搜尋引擎部分至少需要：
 
 - Combobox
-- List
+- Result List
 - Result
 
 在接下來的文章中，會再一一介紹到這些實作上遇到的細節。
