@@ -9,16 +9,19 @@
 想要研究卻無從著手。
 
 個人在研究所時，是做 **自然語言處理 (NLP)** 相關研究，
-工作這幾年也是與**搜尋引擎**相關。
+工作這幾年也是與 **搜尋引擎** 相關。
 希望能透過這次的機會，能分享一些相關經驗。
 
-本篇文章面向**初學者**，也較著重**實作**。
+本篇文章面向 **初學者**，也較著重 **實作**。
 在 `NLP` 與 `後端` 的部分提供 jupyter notebook 與測試資料，
 希望能有更好的互動性，並使內容更加容易理解。
 
 本次的文章、實作皆是與 Hello Kirby 合作完成
 個人(tainvecs) 負責 `後端` 與 `搜尋引擎` 的部分
 Kirby 負責 `前端` 與 `爬蟲`。
+
+本次系列的實作與文章也會同步更新於此 [Github].
+實作的結果也可以從 [Over Engineering] 上看到。
 內容中，如有不足之處，還請不吝指教。
 
 <br>
@@ -108,7 +111,8 @@ IT 邦幫忙 是台灣最有名的軟體工程知識平台之一，
 
 技術上，我 與 Kirby 都選擇了與工作上幾乎完全不同的技術棧。
 一方面，也算是對自己的挑戰及同時享受過程中的學習。
-像是：[remix]、[deno]、[meilisearch]、[keybert]、[flask]、[github action][github-action]、[fly.io] 及 [supabase]，都是我們實作過程中認識的新玩具。
+像是：[remix]、[deno]、[meilisearch]、[keybert]、[flask]、[github action][github-action]、[fly.io] 及 [supabase]，
+都是我們實作過程中認識的新玩具。
 
 另一方面，考量到如何簡化整體產品的複雜程度，
 如：選擇更加容易上手的搜尋引擎 [meilisearch]。
@@ -125,7 +129,8 @@ IT 邦幫忙 是台灣最有名的軟體工程知識平台之一，
 > tainvecs: 我絕對不會告訴你，當初我在寫碩士論文的時候，問學長 future work 要怎麼寫？
 > 學長：反正就把你所有沒時間做或做不到的事都寫上去就對了！😝
 
-
+[Github]: https://github.com/over-engineering-run
+[Over Engineering]: https://over-engineering-frontend.fly.dev/
 [remix]: https://remix.run/
 [deno]: https://deno.land/
 [meilisearch]: https://docs.meilisearch.com/
