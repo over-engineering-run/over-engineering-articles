@@ -1,5 +1,7 @@
 # [Day 02] 什麼是搜尋引擎 I - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】
 
+[Github], [Over Engineering]
+
 提到搜尋引擎，大家最直接的會想到 google。
 若說以一個使用者的角度而言，相信大家都用過 google，也不需要我在此多做說明。
 然而，若以一個實作者的角度來思考，或許需要一個更深入的視角。
@@ -101,5 +103,7 @@
 > 舉例: "我們中出了一個叛徒！"
 > 如果斷詞出錯，便可能造成語意理解出問題。(⁄ ⁄•⁄ω⁄•⁄ ⁄)
 
-[網路爬蟲]:https://zh.wikipedia.org/zh-tw/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2
+[Github]: https://github.com/over-engineering-run
+[Over Engineering]: https://over-engineering-frontend.fly.dev/
+[網路爬蟲]: https://zh.wikipedia.org/zh-tw/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2
 [自然語言處理]: https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86
