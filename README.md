@@ -12,9 +12,9 @@
 
 ## Crawler
 
-- [如何設計爬蟲流程 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./draft/crawler/crawler-1.md)
-- [如何用 Deno 爬蟲 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./draft/crawler/crawler-2.md)
-- [如何用 GitHub Action 做爬蟲排程 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./draft/crawler/crawler-3.md)
+- (draft) [如何設計爬蟲流程 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./draft/crawler/crawler-1.md)
+- (draft) [如何用 Deno 爬蟲 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./draft/crawler/crawler-2.md)
+- (draft) [如何用 GitHub Action 做爬蟲排程 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./draft/crawler/crawler-3.md)
 
 
 ## Database
@@ -24,7 +24,7 @@
 
 ## Zsh Plugins
 
-- [如何使用終端機 Plugin 加速測試流程 - 帶這 Plugin 闖蕩 Terminal |【搜尋引擎製作錄】](./draft/plugin/plugin-1.md)
+- (draft) [如何使用終端機 Plugin 加速測試流程 - 帶這 Plugin 闖蕩 Terminal |【搜尋引擎製作錄】](./draft/plugin/plugin-1.md)
 
 
 ## NLP
@@ -40,13 +40,13 @@
 
 ## Frontend
 
-- [如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/tech-stack.md)
-- [為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/design.md)
-- [如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result.md)
-- [如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/combobox.md)
-- [如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result-list.md)
+- (draft) [如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/tech-stack.md)
+- (draft) [為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/design.md)
+- (draft) [如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result.md)
+- (draft) [如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/combobox.md)
+- (draft) [如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result-list.md)
 
 
 ## Other
 
-- [如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)
+    - (draft) [如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)
