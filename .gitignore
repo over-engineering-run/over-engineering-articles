@@ -141,4 +141,8 @@ tags
 
 # bin
 bin/**
+
+# datasets
+datasets/**
+
 !**/.gitkeep
