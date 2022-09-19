@@ -42,7 +42,7 @@
 從下圖可以看到執行結果，並在回應資訊中看到，
 `Meilisearch` server 的位置便在預設的 `127.0.0.1:7700`。
 
-![alt text](https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/feat/day04/resources/day04-ms1.png)
+![alt text](https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/resources/day04-ms1.png)
 
 打開瀏覽器，拜訪本地端 `Meilisearch` server，
 便可見以下的 `Meilisearch` 預設的 mini dashboard (小型儀表板)。
