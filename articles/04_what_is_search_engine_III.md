@@ -25,6 +25,8 @@
 至於 windows 或其它作業系統環境，還請參考 [meilisearch quick start] 。
 如果在安裝或是設置上有任何問題，也歡迎在下面留言討論。
 
+若想跳過安裝及建立索引的部分，或是使用 docker 也可以參考最後的附錄。
+
 
 ### 安裝並執行 Meilisearch
 
@@ -74,7 +76,10 @@
 
 ![alt text](https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/resources/day04-ms3.png)
 
-大約等待幾秒鐘後重新整理，可以看到 mini dashboard 中，
+
+### 開始搜尋
+
+大約等待30秒到一分鐘後重新整理，可以看到 mini dashboard 中，
 出現了新的`索引` movies，並有 31,944 筆資料。
 
 ![alt text](https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/resources/day04-ms4.png)
@@ -92,7 +97,30 @@
 > 晚點把上面安裝與索引建制的部分寫成 script 放上來，
 > 有時間的話再補充 docker 的部分。
 
+
+## 附錄
+
+
+### 透過 bash script 安裝並設定 `Meilisearch`
+若想跳過安裝及建立索引的部分，也可以執行以下的指令。
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/scripts/day04-ms-local.sh)"
+```
+
+它會將 `Meilisearch` 安裝及建立索引的步驟，透過 bash script 完成，
+並在 localhost:7700 背景執行 `Meilisearch` server。
+
+
+### Docker
+作者在 [Docker Hub] 還提供了 Debian based 的 `Meilisearch` Docker Images.
+對於 macbook M1 也有支援。
+或是想參考 Dockerfile 自行 build images 也可以參考 [Dockerfile]。
+
+
 [Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 [meilisearch]: https://docs.meilisearch.com/
 [meilisearch quick start]: https://docs.meilisearch.com/learn/getting_started/quick_start.html#setup-and-installation
+[Docker Hub]: https://hub.docker.com/repository/docker/tainvecs/meilisearch-debian
+[Dockerfile]: https://github.com/tainvecs/garage/tree/main/meilisearch/deployment
