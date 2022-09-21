@@ -7,7 +7,8 @@
 - [\[Day 02\] 什麼是搜尋引擎 I - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./articles/02_what_is_search_engine_I.md)
 - [\[Day 03\] 什麼是搜尋引擎 II - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./articles/03_what_is_search_engine_II.md)
 - [\[Day 04\] 什麼是搜尋引擎 III - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./articles/04_what_is_search_engine_III.md)
-- (draft) [如何規劃技術架構 - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./draft/intro/structure.md)
+- [\[Day 05\] 什麼是搜尋引擎 IV - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./articles/05_what_is_search_engine_IV.md)
+- (draft) [\[Day 06\] 實作技術架構 - 在 IT 邦尋求答案是否少了些什麼 |【搜尋引擎製作錄】](./draft/intro/structure.md)
 
 
 ## Crawler
