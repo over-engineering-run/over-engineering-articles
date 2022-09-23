@@ -14,7 +14,7 @@
 ## Crawler
 
 - [\[Day 07\] 如何設計爬蟲流程 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./articles/07_crawler_I.md)
-- (draft) [如何用 Deno 爬蟲 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./draft/crawler/crawler-2.md)
+- [\[Day 08\] 如何用 Deno 爬蟲 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./articles/08_crawler_II.md)
 - (draft) [如何用 GitHub Action 做爬蟲排程 - 關於轉生爬蟲後的那檔子事 |【搜尋引擎製作錄】](./draft/crawler/crawler-3.md)
 
 
