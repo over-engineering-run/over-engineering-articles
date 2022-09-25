@@ -20,7 +20,7 @@
 
 ## Database
 
-- Serverless Database
+- [\[Day 10\] Serverless Database - 我才不會喜歡上像 supabase 這樣的資料庫呢！！ |【搜尋引擎製作錄】](./articles/10_supabase.md)
 
 
 ## Zsh Plugins
