@@ -23,31 +23,49 @@
 - [\[Day 10\] Serverless Database - 我才不會喜歡上像 supabase 這樣的資料庫呢！！ |【搜尋引擎製作錄】](./articles/10_supabase.md)
 
 
-## Zsh Plugins
-
-- (draft) [如何使用終端機 Plugin 加速測試流程 - 帶這 Plugin 闖蕩 Terminal |【搜尋引擎製作錄】](./draft/plugin/plugin-1.md)
-
-
 ## NLP
 
-- Search Context
-- Whay Not Fulltext Search?
-- 資料處理
-- query processing
-- doc processing
-- Information Inbalance
-- Keyword Extraction
+- [\[Day 11\] - 資料前處理 - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/11_data_processing_I.md)
+- (draft) [\[Day 12\] - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/12_.md)
+- (draft) [\[Day 13\] - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/13_.md)
+- (draft) [\[Day 14\] - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/14_.md)
+- (draft) [\[Day 15\] - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/15_.md)
+
+
+## Zsh Plugins
+
+- (draft) [\[Day 16\]如何使用終端機 Plugin 加速測試流程 - 帶這 Plugin 闖蕩 Terminal |【搜尋引擎製作錄】](./draft/plugin/plugin-1.md)
+
+
+## Search Engine
+
+- [Day 17]
+- [Day 18]
+- [Day 19]
+- [Day 20]
+
+
+## Backend
+
+- [Day 21]
+- [Day 22]
+- [Day 23]
 
 
 ## Frontend
 
-- (draft) [如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/tech-stack.md)
-- (draft) [為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/design.md)
-- (draft) [如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result.md)
-- (draft) [如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/combobox.md)
-- (draft) [如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result-list.md)
+- (draft) [Day 24] [如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/tech-stack.md)
+- (draft) [Day 25] [為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/design.md)
+- (draft) [Day 26] [如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result.md)
+- (draft) [Day 27] [如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/combobox.md)
+- (draft) [Day 28] [如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result-list.md)
+
+
+## Deployment
+
+- [Day 29] Fly.io
 
 
 ## Other
 
-- (draft) [如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)
+- (draft) [Day 30] [如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)
