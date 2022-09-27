@@ -8,12 +8,14 @@
 一切就準備妥當，等待自然語言處理。
 接下來，我們會使用約5天的篇幅，描述資料處理與NLP的部分。
 
+![](https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/resources/day11-01-architecture-zh.png)
+
 ## 資料前處理
 在 [Day 02] 中，我們有稍微提到為何要資料前處理，
 其中可能包含 **html 的解析** 與 **自然語言處理** 等，
 這其中的處理流程，還是要考慮到後續的需求，
 
-![](https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/resources/day11-11-search_engine.png)
+![](https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/resources/day11-02-search_engine.png)
 
 所以這其實是有些從功能需求端，返推回來的過程。
 當搜尋引擎在使用資料並提供搜尋服務時，會被使用到？
