@@ -25,11 +25,11 @@
 
 ## NLP
 
-- [\[Day 11\] - 資料前處理 - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/11_data_processing_I.md)
-- (draft) [\[Day 12\] - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/12_.md)
-- (draft) [\[Day 13\] - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/13_.md)
-- (draft) [\[Day 14\] - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/14_.md)
-- (draft) [\[Day 15\] - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/15_.md)
+- [\[Day 11\] 資料前處理 - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/11_data_processing_I.md)
+- [\[Day 12\] Data Pipeline - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/12_data_processing_II.md)
+- (draft) [\[Day 13\] NLP - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/13_.md)
+- (draft) [\[Day 14\]  - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/14_.md)
+- (draft) [\[Day 15\]  - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/15_.md)
 
 
 ## Zsh Plugins
