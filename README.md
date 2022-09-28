@@ -27,45 +27,44 @@
 
 - [\[Day 11\] 資料前處理 - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/11_data_processing_I.md)
 - [\[Day 12\] Data Pipeline - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/12_data_processing_II.md)
-- (draft) [\[Day 13\] NLP - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/13_.md)
+- [\[Day 13\] NLP - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/13_data_processing_III.md)
 - (draft) [\[Day 14\]  - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/14_.md)
-- (draft) [\[Day 15\]  - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/15_.md)
 
 
 ## Zsh Plugins
 
-- (draft) [\[Day 16\]如何使用終端機 Plugin 加速測試流程 - 帶這 Plugin 闖蕩 Terminal |【搜尋引擎製作錄】](./draft/plugin/plugin-1.md)
+- (draft) [\[Day 15\]如何使用終端機 Plugin 加速測試流程 - 帶這 Plugin 闖蕩 Terminal |【搜尋引擎製作錄】](./draft/plugin/plugin-1.md)
 
 
 ## Search Engine
 
+- [Day 16]
 - [Day 17]
 - [Day 18]
 - [Day 19]
-- [Day 20]
 
 
 ## Backend
 
+- [Day 20]
 - [Day 21]
 - [Day 22]
-- [Day 23]
 
 
 ## Frontend
 
-- (draft) [Day 24] [如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/tech-stack.md)
-- (draft) [Day 25] [為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/design.md)
-- (draft) [Day 26] [如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result.md)
-- (draft) [Day 27] [如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/combobox.md)
-- (draft) [Day 28] [如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result-list.md)
+- (draft) [Day 23] [如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/tech-stack.md)
+- (draft) [Day 24] [為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/design.md)
+- (draft) [Day 25] [如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result.md)
+- (draft) [Day 26] [如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/combobox.md)
+- (draft) [Day 27] [如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result-list.md)
 
 
 ## Deployment
 
-- [Day 29] Fly.io
+- [Day 28] Fly.io
 
 
 ## Other
-
+- (draft) [Day 29] [資料處理與搜尋的改進空間 - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】]()
 - (draft) [Day 30] [如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)

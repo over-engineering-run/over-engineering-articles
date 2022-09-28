@@ -6,7 +6,7 @@
 
 當原始資料透過爬蟲抓下來，並存入資料庫後，
 一切就準備妥當，等待自然語言處理。
-接下來，我們會使用約5天的篇幅，描述資料處理與NLP的部分。
+接下來，我們會使用約4天的篇幅，描述資料處理與NLP的部分。
 
 ![](https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/resources/day11-01-architecture-zh.png)
 
