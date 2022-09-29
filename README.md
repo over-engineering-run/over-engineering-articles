@@ -28,7 +28,7 @@
 - [\[Day 11\] 資料前處理 - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/11_data_processing_I.md)
 - [\[Day 12\] Data Pipeline - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/12_data_processing_II.md)
 - [\[Day 13\] NLP - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/13_data_processing_III.md)
-- (draft) [\[Day 14\]  - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/14_.md)
+- [\[Day 14\] Pipeline Runner - 果然我的自然語言處理搞錯了。|【搜尋引擎製作錄】](./articles/14_data_processing_IV.md)
 
 
 ## Zsh Plugins
