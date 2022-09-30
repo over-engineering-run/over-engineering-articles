@@ -38,31 +38,31 @@
 
 ## Search Engine
 
-- [Day 16]
-- [Day 17]
-- [Day 18]
-- [Day 19]
+- [\[Day 16\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
+- [\[Day 17\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
+- [\[Day 18\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
+- [\[Day 19\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
 
 
 ## Backend
 
-- [Day 20]
-- [Day 21]
-- [Day 22]
+- [\[Day 20\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
+- [\[Day 21\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
+- [\[Day 22\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
 
 
 ## Frontend
 
-- (draft) [Day 23] [如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/tech-stack.md)
-- (draft) [Day 24] [為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/design.md)
-- (draft) [Day 25] [如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result.md)
-- (draft) [Day 26] [如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/combobox.md)
-- (draft) [Day 27] [如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result-list.md)
+- (draft) [\[Day 23\] 如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/tech-stack.md)
+- (draft) [\[Day 24\] 為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/design.md)
+- (draft) [\[Day 25\] 如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result.md)
+- (draft) [\[Day 26\] 如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/combobox.md)
+- (draft) [\[Day 27\] 如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result-list.md)
 
 
 ## Deployment
 
-- [Day 28] Fly.io
+- [\[Day 28\] - Fly.io 什麼的已經夠了啦。 |【搜尋引擎製作錄】](./articles/)
 
 
 ## Other
