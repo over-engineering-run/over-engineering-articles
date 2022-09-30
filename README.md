@@ -33,7 +33,7 @@
 
 ## Zsh Plugins
 
-- (draft) [\[Day 15\]如何使用終端機 Plugin 加速測試流程 - 帶這 Plugin 闖蕩 Terminal |【搜尋引擎製作錄】](./draft/plugin/plugin-1.md)
+- [\[Day 15\] 如何使用終端機 Plugin 加速測試流程 - 帶這 Plugin 闖蕩 Terminal |【搜尋引擎製作錄】](./articles/15_ms_plugin.md)
 
 
 ## Search Engine
