@@ -61,10 +61,10 @@
 
 ## Deployment
 
-- (draft) [\[Day 27\] - Fly.io 什麼的已經夠了啦。|【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 27\] Deployment - Fly.io 什麼的已經夠了啦。|【搜尋引擎製作錄】](./articles/)
 
 
 ## Other
-- (draft) [Day 28] [資料處理與搜尋的改進空間 - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
-- (draft) [Day 29] [資料處理與搜尋的改進空間 - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
+- (draft) [Day 28] [資料處理與搜尋的改進空間 I - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
+- (draft) [Day 29] [資料處理與搜尋的改進空間 II - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
 - (draft) [Day 30] [如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)
