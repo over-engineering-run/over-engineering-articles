@@ -38,17 +38,17 @@
 
 ## Search Engine
 
-- [\[Day 16\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
-- [\[Day 17\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
-- [\[Day 18\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
-- [\[Day 19\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 16\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 17\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 18\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 19\] - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
 
 
 ## Backend
 
-- [\[Day 20\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
-- [\[Day 21\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
-- [\[Day 22\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 20\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 21\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 22\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
 
 
 ## Frontend
@@ -62,9 +62,9 @@
 
 ## Deployment
 
-- [\[Day 28\] - Fly.io 什麼的已經夠了啦。 |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 28\] - Fly.io 什麼的已經夠了啦。|【搜尋引擎製作錄】](./articles/)
 
 
 ## Other
-- (draft) [Day 29] [資料處理與搜尋的改進空間 - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】]()
+- (draft) [Day 29] [資料處理與搜尋的改進空間 - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
 - (draft) [Day 30] [如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)
