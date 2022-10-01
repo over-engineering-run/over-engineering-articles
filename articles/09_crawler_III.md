@@ -136,7 +136,7 @@ jobs:
 - [POSIX cron syntax][posix-cron-syntax]
 - [cron 大師][crontab-guru]
 
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 
 [create-env]: https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#creating-an-environment

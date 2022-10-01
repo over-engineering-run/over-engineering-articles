@@ -271,7 +271,7 @@ deno run --allow-all job.ts \
 [linke-dom]: https://github.com/WebReflection/linkedom
 [js-dom]: https://github.com/jsdom/jsdom
 [dotenv]: https://github.com/motdotla/dotenv
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 
 [main-process]: https://github.com/over-engineering-run/over-engineering/blob/8b3d62f485c9d4db18de9ef5ec1c1660feb06161/crawler/job.ts#L34

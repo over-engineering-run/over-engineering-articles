@@ -138,7 +138,7 @@ with Pool(processes=processes_n) as pool:
 以利我們後續在 terminal 測試搜尋引擎。
 
 
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 [nlp code]: https://github.com/over-engineering-run/over-engineering/tree/v0.0.1/nlp
 [set up script]: https://github.com/over-engineering-run/over-engineering/blob/v0.0.1/nlp/scripts/nlp_setup.sh

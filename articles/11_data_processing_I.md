@@ -118,7 +118,7 @@
 明天我們會描述資料處理的細節，
 並使用 `jupyter notebook` 及 `sqlite` 提供本地端的測試。
 
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 [Day 02]: https://github.com/over-engineering-run/over-engineering-articles/blob/main/articles/02_what_is_search_engine_I.md
 [Day 03]: https://github.com/over-engineering-run/over-engineering-articles/blob/main/articles/03_what_is_search_engine_II.md

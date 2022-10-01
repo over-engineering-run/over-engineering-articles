@@ -99,7 +99,7 @@
 明天我們將會進入到實作環節，並從資料處理部分的`網路爬蟲`開始。
 
 
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 [day 01]: https://github.com/over-engineering-run/over-engineering-articles/blob/main/articles/01_introduction.md
 [day 02]: https://github.com/over-engineering-run/over-engineering-articles/blob/main/articles/02_what_is_search_engine_I.md#%E7%8D%B2%E5%8F%96%E8%B3%87%E6%96%99

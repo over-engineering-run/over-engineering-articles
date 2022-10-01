@@ -120,7 +120,7 @@ sh ./testing-setup.sh
 ```
 
 
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 [Data Pipeline]: https://en.wikipedia.org/wiki/Pipeline_(computing)
 [Test Code]: https://github.com/over-engineering-run/over-engineering/tree/v0.0.1/nlp/testing

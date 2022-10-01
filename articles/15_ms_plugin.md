@@ -103,7 +103,7 @@ function 的名稱也比 `curl` 指令的更加好記易懂，
 > :)
 
 
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 [Day 04]: https://github.com/over-engineering-run/over-engineering-articles/blob/main/articles/04_what_is_search_engine_III.md
 [meilisearch]: https://docs.meilisearch.com/learn/getting_started/quick_start.html

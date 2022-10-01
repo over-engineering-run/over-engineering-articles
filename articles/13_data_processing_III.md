@@ -110,7 +110,7 @@ keyword 則會直接使用英文。
 明天會最後簡單概括一下資料處理的部分，
 後天便會準備進入搜尋引擎相關的內容。
 
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 [Day 02]: https://github.com/over-engineering-run/over-engineering-articles/blob/main/articles/02_what_is_search_engine_I.md
 [Stop Word]: https://en.wikipedia.org/wiki/Stop_word

@@ -77,7 +77,7 @@
 - [Github Action]
 - [deno]
 
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 [Crawler]: https://en.wikipedia.org/wiki/Web_crawler
 [Scraping]: https://en.wikipedia.org/wiki/Web_scraping

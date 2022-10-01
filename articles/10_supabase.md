@@ -47,7 +47,7 @@ Client 端，目前 `suapbase` 有支援 `javascript` 的函式庫 [supabase-js]
 
 明天我們會開始進入資料處理與 NLP 的部分。
 
-[Github]: https://github.com/over-engineering-ru
+[Github]: https://github.com/over-engineering-run
 [Over Engineering]: https://over-engineering-frontend.fly.dev/
 [supabase]: https://supabase.com/
 [supabase-js]: https://github.com/supabase/supabase-js
