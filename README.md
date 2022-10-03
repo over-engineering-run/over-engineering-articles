@@ -40,7 +40,7 @@
 
 - [\[Day 16\] Indexes, Schema, and Settings - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/16_search_engine_index_schema_setting.md)
 - [\[Day 17\] Search - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/17_search_engine_search.md)
-- (draft) [\[Day 18\] Auto Complete and Highlight - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/)
+- [\[Day 18\] Auto Complete and Highlight - 搜尋引擎，到了鐵人賽就拿出 Meilisearch |【搜尋引擎製作錄】](./articles/18_search_engine_highlight_and_auto_complete.md)
 
 
 ## Backend
