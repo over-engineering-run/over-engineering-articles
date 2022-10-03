@@ -164,6 +164,15 @@ ms-doc-index $MEILISEARCH_DOCUMENTS_INDEX ./backend/testing/testing-meilisearch_
 ms-task-ls 1
 ```
 
+## Search
+最後，在完成這些後，
+我們可以透過 mini dashboard 或以下指令測試搜尋
+```bash
+curl -XPOST "http://localhost:7700/indexes/$MEILISEARCH_DOCUMENTS_INDEX/search" \
+     -H 'Content-Type: application/json' \
+     --data-binary '{ "q": "stm" }'
+```
+
 抱歉這篇晚了一天，
 明天會就 `highlight` 與 `auto complete` 的實作部分繼續。
 
