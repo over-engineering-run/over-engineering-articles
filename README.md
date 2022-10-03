@@ -65,6 +65,6 @@
 
 
 ## Other
-- (draft) [Day 28] [資料處理與搜尋的改進空間 I - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
-- (draft) [Day 29] [資料處理與搜尋的改進空間 II - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
-- (draft) [Day 30] [如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)
+- (draft) [\[Day 28\] 資料處理與搜尋的改進空間 I - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 29\] 資料處理與搜尋的改進空間 II - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 30\] 如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)
