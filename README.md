@@ -46,8 +46,8 @@
 ## Backend
 
 - [\[Day 19\] 後端 API 設計 - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/19_backend_api_design.md)
-- [\[Day 20\] Flask 實作 - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
-- [\[Day 21\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 20\] Flask 實作 - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 21\] - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】](./articles/)
 
 
 ## Frontend
