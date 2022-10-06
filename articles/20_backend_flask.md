@@ -1,4 +1,4 @@
-# [Day 20] Flask 實作 I - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】
+# [Day 20] Flask 實作 - 為搜尋引擎獻上後端！ |【搜尋引擎製作錄】
 
 [Github], [Over Engineering]
 
