@@ -19,16 +19,16 @@
 這次後端的實作，考慮到 NLP 的部分已經用 python 了，
 所以後端就也一起用 python 及 [flask] 吧。
 
-這次後端的部分我們會分為三天介紹
+這次後端的部分我們會分為四天介紹
 - **Day 19**
   - 後端簡介
   - API 設計
 - **Day 20**
-  - Flask 實作 I
-  - Meilisearch
+  - Flask 實作
 - **Day 21**
-  - Flask 實作 II
-  - Meilisearch and Supabase
+  - Meilisearch
+- **Day 22**
+  - Supabase
 
 > 我也是第一次用 flask，
 > 如果有任何指教也歡迎留言。 :)
