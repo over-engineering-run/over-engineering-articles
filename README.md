@@ -53,11 +53,11 @@
 
 ## Frontend
 
-- (draft) [\[Day 23\] 如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/tech-stack.md)
-- (draft) [\[Day 24\] 為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/design.md)
-- (draft) [\[Day 25\] 如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result.md)
-- (draft) [\[Day 26\] 如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/combobox.md)
-- (draft) [\[Day 27\] 如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./draft/frontend/result-list.md)
+- [\[Day 23\] 如何規劃前端技術棧 - 實用至上主義前端 |【搜尋引擎製作錄】](./articles/23_frontend_tech_stack.md)
+- [\[Day 24\] 為什麼需要 design system - 實用至上主義前端 |【搜尋引擎製作錄】](./articles/24_frontend_design.md)
+- [\[Day 25\] 如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./articles/25_frontend_result.md)
+- [\[Day 26\] 如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./articles/26_frontend_combobox.md)
+- [\[Day 27\] 如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./articles/27_frontend_result_list.md)
 
 
 ## Deployment
