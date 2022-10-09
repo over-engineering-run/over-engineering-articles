@@ -155,7 +155,7 @@ _Featured snippet_ 目前是限制 `3` 筆，
 [Google]: https://www.google.com/
 [cls]: https://web.dev/cls/
 
-[search-result](https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/resources/day25-01-search-result.png)
+[search-result]: https://raw.githubusercontent.com/over-engineering-run/over-engineering-articles/main/resources/day25-01-search-result.png
 
 [plain-blue-link]: https://lh3.googleusercontent.com/f7QwCxV68PwaawDzXPeYQcVAcUNM3HeIH5UBQ7eA3z3xatbstDImbhBvh0N1KMAD8GYI=w669
 
