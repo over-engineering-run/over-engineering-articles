@@ -58,13 +58,14 @@
 - [\[Day 25\] 如何設計搜尋結果 - 實用至上主義前端 |【搜尋引擎製作錄】](./articles/25_frontend_result.md)
 - [\[Day 26\] 如何設計搜尋欄位 - 實用至上主義前端 |【搜尋引擎製作錄】](./articles/26_frontend_combobox.md)
 - [\[Day 27\] 如何設計搜尋結果清單 - 實用至上主義前端 |【搜尋引擎製作錄】](./articles/27_frontend_result_list.md)
+- [\[Day 28\] 如何設計好的 Title - 實用至上主義前端 |【搜尋引擎製作錄】](./articles/28_frontend_title.md)
 
 
 ## Deployment
 
-- (draft) [\[Day 28\] Deployment - Fly.io 什麼的已經夠了啦。|【搜尋引擎製作錄】](./articles/)
+- (draft) [\[Day 29\] Deployment - Fly.io 什麼的已經夠了啦。|【搜尋引擎製作錄】](./articles/)
 
 
 ## Other
-- (draft) [\[Day 29\] 資料處理與搜尋的改進空間 - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./articles/)
-- (draft) [\[Day 30\] 如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】](./draft/misc/title.md)
+
+- (draft) [\[Day 30\] 資料處理與搜尋的改進空間 - 道別的篇章就用 Future Work 點綴吧 |【搜尋引擎製作錄】](./articles/)
