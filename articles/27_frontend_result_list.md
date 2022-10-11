@@ -27,7 +27,7 @@
 你可以在這邊處理 API Server Request 跟 Response，
 而前端可以直接拿處理後的資料。
 
-```tsx
+```typescript
 export const loader: LoaderFunction = ({ request }) => {
   const url = new URL(request.url);
 
@@ -85,7 +85,7 @@ const Page = () => {
 不僅是減少我們需要轉寫的程式碼量，
 也大幅降低了 server 的 loading。
 
-```tsx
+```typescript
 type State = {
   page: number;
   results: SearchResult[];
@@ -140,7 +140,7 @@ Virtual List 則是指畫面上的元件並沒有感覺起來這麼多，
 這時透過 Virtual List 可以固定需要產生的記憶體量，
 但並不是絕對要配在一起用，端看你的使用情境。
 
-```tsx
+```typescript
   ...
   const itemSize = 236;
   const margin = 20;

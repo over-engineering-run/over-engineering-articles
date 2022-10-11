@@ -102,7 +102,7 @@ OneBox 結果會顯示直接答案，或是相關的工具。
 為了不破壞版型結構造成 [CLS][cls] 都有進行 `truncate`。
 
 
-```tsx
+```typescript
   ...
           {/* Series */}
           <a
@@ -129,7 +129,7 @@ _Featured snippet_ 目前是限制 `3` 筆，
 超過數量會顯示 `+N` 按鈕用來展開更多，
 如果有更好的實作建議，也歡迎來 repository 這邊開 discussion。
 
-```tsx
+```typescript
           {/* Featured snippet */}
           <ul className="flex flex-wrap gap-2">
             {hashtags.map((hashtag) => (

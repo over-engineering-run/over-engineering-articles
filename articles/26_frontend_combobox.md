@@ -110,7 +110,7 @@
 為了方便維護，
 我個人會將邏輯部分透過 `custom hooks` 抽離。
 
-```tsx
+```typescript
 const Search = (props: Props) => {
   const form = useSearchBar();
   ...
@@ -122,7 +122,7 @@ const Search = (props: Props) => {
 其本身可以作為單獨的 `form` 處理，
 透過 [Remix] 我們可以更輕鬆的處理 `form submit`。
 
-```tsx
+```typescript
     <Form action="/search">
       <div {...form.getComboboxProps()}>
         <label {...form.getLabelProps()} className="sr-only">
@@ -190,7 +190,7 @@ const Search = (props: Props) => {
 > 透過只封裝元件邏輯，並讓樣式能夠根據使用情境高度客製化，
 > 也能減少程式碼的打包量。
 
-```tsx
+```typescript
 function useSearchBar() {
   ...
 
@@ -222,7 +222,7 @@ function useSearchBar() {
 所以我們**不需要**做任何 [debounce 或是 throttle][debouncing-throttling]，
 而是真的打字就發 request。
 
-```tsx
+```typescript
 function useAutoComplete() {
   const fetcher = useFetcher<AutoCompleteResult>();
 
@@ -246,7 +246,7 @@ function useAutoComplete() {
 除了可以減輕 server 的負擔外，
 也落實用戶個人資料的安全。
 
-```tsx
+```typescript
 function useHistory() {
   const [_options, setHistory] = useLocalStorage<History[]>(
     "search-history",
