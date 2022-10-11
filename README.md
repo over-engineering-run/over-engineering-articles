@@ -63,7 +63,7 @@
 
 ## Deployment
 
-- (draft) [\[Day 29\] Deployment - Fly.io 什麼的已經夠了啦。|【搜尋引擎製作錄】](./articles/)
+- [\[Day 29\] Deployment - Fly.io 什麼的已經夠了啦。|【搜尋引擎製作錄】](./articles/29_deployment_docker.md)
 
 
 ## Other
