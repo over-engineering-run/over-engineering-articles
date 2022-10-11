@@ -69,4 +69,4 @@
 
 ## Other
 
-- (draft) [\[Day 30\] 資料處理與搜尋的改進空間 - 道別的篇章就用 Future Work 點綴吧 |【搜尋引擎製作錄】](./articles/)
+- [\[Day 30\] 資料處理與搜尋的改進空間 - 道別的篇章就用 Future Work 點綴吧 |【搜尋引擎製作錄】](./articles/30_deployment_fly_io.md)
