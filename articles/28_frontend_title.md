@@ -1,4 +1,4 @@
-# [Day 28] 如何設計好的 Title - 從 Search Engine 製作角度看 |【搜尋引擎製作錄】
+# [Day 28] 如何設計好的 Title - 實用至上主義前端 |【搜尋引擎製作錄】
 
 [Github], [Over Engineering]
 
